@@ -1,14 +1,3 @@
-// find the range of the val e.g range(10) [1,2,3,4,5,6,7,8,9,10]
-
-function range(val){
-    let arr =[];
-    for (let i = 1; i <= val; i++){
-        arr.push(i)
-    }
-    return arr
-}
-
-
 //check for the remainder
 
 function divisible(num){
@@ -48,11 +37,12 @@ function divisible(num){
 
 //Run everything
 function calAll(val){
-    let newArr = [];
-    for (let i = 0; i<=range(val).length; i++){
-        newArr.push(divisible(i))
+    let arr = [];
+    for (let i = 0; i<=val; i++){
+        arr.push(divisible(i))
     }
-    console.log(newArr)
+    console.log(arr)
 }
+
 calAll(100)
 calAll(10)
