@@ -54,4 +54,5 @@ function calAll(val){
     }
     console.log(newArr)
 }
-calAll(6)
+calAll(100)
+calAll(10)
